@@ -1,21 +1,21 @@
 [
   {
-    "img": "https://ibb.co/LzjLVbS",
+    "icon": "faFile",
     "name": "Account & Finance",
     "jobAvailable": "100+ Jobs Available"
   },
   {
-    "img": "https://ibb.co/WDyVJ17",
+    "icon": "faHighlighter",
     "name": "Creative Design",
     "jobAvailable": "300 Jobs Available"
   },
   {
-    "img": "https://ibb.co/rc7RPyr",
+    "icon": "faHighlighter",
     "name": "Marketing & Sales",
     "jobAvailable": "150 Jobs Available"
   },
   {
-    "img": "https://ibb.co/BCPq93h",
+    "icon": "faHighlighter",
     "name": "Engineering Job",
     "jobAvailable": "224 Jobs Available"
   }

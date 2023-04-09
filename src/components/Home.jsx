@@ -1,6 +1,9 @@
 import React from "react";
+import { useLoaderData } from "react-router-dom";
+import CatagoryList from "./CatagoryList";
 
 const Home = () => {
+  const catagories = useLoaderData();
   return (
     <div>
       <div
@@ -28,6 +31,20 @@ const Home = () => {
             </button>
           </div>
         </div>
+      </div>
+      <div className="text-center mt-24">
+        <h1 className="text-3xl font-bold mb-5 leading-relaxed">
+          Job Category List
+        </h1>
+        <p className=" text-gray-600">
+          Explore thousands of job opportunities with all the information you
+          need. Its your future
+        </p>
+      </div>
+      <div className="grid grid-cols-1 lg:grid-cols-4 mt-20">
+        {catagories.map((catagory, index) => (
+          <CatagoryList catagory={catagory} key={index}></CatagoryList>
+        ))}
       </div>
     </div>
   );
