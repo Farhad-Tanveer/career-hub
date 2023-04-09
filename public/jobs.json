@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "companyLogo": "https://example.com/logo.png",
+    "jobTitle": "Software Engineer",
+    "companyName": "Example Inc.",
+    "remoteOrOnsite": "Remote",
+    "location": "San Francisco, CA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$120,000 - $150,000 per year",
+    "jobDescription": "We are looking for a skilled software engineer to join our team and help us develop high-quality software applications. The ideal candidate has experience with JavaScript, React, and Node.js, and is passionate about building great user experiences.",
+    "jobResponsibility": "Develop and maintain high-quality software applications using JavaScript, React, and Node.js. Collaborate with cross-functional teams to define, design, and ship new features. Write clean, maintainable, and well-documented code. Participate in code reviews and contribute to continuous improvement of our development processes.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or a related field, or equivalent experience.",
+    "experiences": "3+ years of experience in software engineering, with a focus on JavaScript, React, and Node.js.",
+    "contactInformation": {
+      "phone": "555-1234",
+      "email": "jobs@example.com"
+    }
+  },
+  {
+    "id": 2,
+    "companyLogo": "https://example.com/logo.png",
+    "jobTitle": "Product Manager",
+    "companyName": "Example Inc.",
+    "remoteOrOnsite": "Onsite",
+    "location": "New York, NY",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$130,000 - $160,000 per year",
+    "jobDescription": "We are seeking a product manager to lead the development of our flagship product. The ideal candidate has experience in agile software development, product management, and has a track record of delivering successful products.",
+    "jobResponsibility": "Develop and maintain the product roadmap, working with cross-functional teams to prioritize and execute on the roadmap. Work with engineering teams to ensure timely delivery of features. Analyze customer feedback and data to identify opportunities for improvement. Build relationships with key stakeholders to drive product adoption and growth.",
+    "educationalRequirements": "Bachelor's degree in a related field, or equivalent experience.",
+    "experiences": "5+ years of experience in product management, with a focus on software products.",
+    "contactInformation": {
+      "phone": "555-5678",
+      "email": "jobs@example.com"
+    }
+  },
+  {
+    "id": 3,
+    "companyLogo": "https://example.com/logo.png",
+    "jobTitle": "Data Scientist",
+    "companyName": "Example Inc.",
+    "remoteOrOnsite": "Remote",
+    "location": "Austin, TX",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$140,000 - $170,000 per year",
+    "jobDescription": "We are looking for an experienced data scientist to join our team and help us build cutting-edge machine learning models. The ideal candidate has a strong background in statistical analysis, data mining, and machine learning, and is comfortable working with large datasets.",
+    "jobResponsibility": "Develop and implement machine learning models to solve business problems. Analyze and interpret large, complex data sets, and present findings to stakeholders. Work with cross-functional teams to define requirements and develop solutions. Collaborate with data engineers and software developers",
+    "educationalRequirements": "Bachelor's degree in a related field, or equivalent experience.",
+    "experiences": "5+ years of experience in product management, with a focus on software products.",
+    "contactInformation": {
+      "phone": "555-5678",
+      "email": "jobs@example.com"
+    }
+  },
+  {
+    "id": 4,
+    "companyLogo": "https://example.com/logo.png",
+    "jobTitle": "Graphic Designer",
+    "companyName": "ABC Design Co.",
+    "remoteOrOnsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltimeOrPartTime": "Full-time",
+    "salary": "$60,000 - $80,000 per year",
+    "jobDescription": "We are seeking a talented graphic designer to join our team and create beautiful designs for a variety of clients. In this role, you will work closely with our creative director and project managers to bring our clients’ visions to life.",
+    "jobResponsibility": "Create designs for a variety of mediums, including print, web, and social media. Work collaboratively with our team to develop concepts and present them to clients. Manage multiple projects and deadlines simultaneously.",
+    "educationalRequirements": "Bachelor’s degree in Graphic Design or related field",
+    "experiences": "2+ years of experience in graphic design, with a strong portfolio showcasing your work",
+    "contactInformation": {
+      "phone": "555-4321",
+      "email": "jobs@abcdesignco.com"
+    }
+  },
+  {
+    "id": 5,
+    "companyLogo": "https://example.com/logo.png",
+    "jobTitle": "Human Resources Manager",
+    "companyName": "Global Corporation",
+    "remoteOrOnsite": "Onsite",
+    "location": "New York, NY",
+    "fulltimeOrPartTime": "Full-time",
+    "salary": "$100,000 - $120,000 per year",
+    "jobDescription": "We are seeking an experienced human resources manager to join our team and lead our HR department. In this role, you will be responsible for developing and implementing HR policies, managing our HR team, and ensuring compliance with all relevant laws and regulations.",
+    "jobResponsibility": "Develop and implement HR policies, procedures, and programs. Manage and mentor our HR team to ensure they are meeting their goals. Ensure compliance with all relevant laws and regulations. Work collaboratively with other departments to ensure a positive and productive work environment.",
+    "educationalRequirements": "Bachelor’s degree in Human Resources or related field",
+    "experiences": "7+ years of experience in HR, with at least 2 years in a management role",
+    "contactInformation": {
+      "phone": "555-6420",
+      "email": "jobs@globalcorp.com"
+    }
+  },
+  {
+    "id": 98765,
+    "companyLogo": "https://example.com/logo.png",
+    "jobTitle": "Marketing Manager",
+    "companyName": "XYZ Corp.",
+    "remoteOrOnsite": "Remote",
+    "location": "United States",
+    "fulltimeOrPartTime": "Full-time",
+    "salary": "$80,000 - $100,000 per year",
+    "jobDescription": "We are looking for a marketing manager to lead our marketing initiatives and help us grow our business. In this role, you will be responsible for developing and executing our marketing strategy, managing our marketing team, and driving growth.",
+    "jobResponsibility": "Develop and execute our marketing strategy, including digital marketing, email marketing, social media, and content marketing. Manage and mentor our marketing team to ensure they are meeting their goals. Analyze data to measure the success of our marketing efforts and adjust our strategy accordingly.",
+    "educationalRequirements": "Bachelor’s degree in Marketing or related field",
+    "experiences": "5+ years of experience in marketing, with at least 2 years in a management role",
+    "contactInformation": {
+      "phone": "555-8765",
+      "email": "jobs@xyzcorp.com"
+    }
+  }
+]
