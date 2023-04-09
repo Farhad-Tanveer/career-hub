@@ -7,6 +7,7 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
+  Line,
 } from "recharts";
 const data = [
   {
@@ -51,7 +52,10 @@ const Statistics = () => {
           Assignment Analytics
         </h1>
       </div>
-      <div style={{ width: "50%", height: 300 }}>
+      <div
+        style={{ width: "75%", height: 300 }}
+        className="w-full lg:w-2/4 h-3/6"
+      >
         <ResponsiveContainer>
           <AreaChart
             data={data}
