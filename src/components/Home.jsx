@@ -6,11 +6,19 @@ import CatagoryList from "./CatagoryList";
 const Home = () => {
   const catagories = useLoaderData();
   const [jobs, setJobs] = useState([]);
+  const [partialJobs, setPartialJobs] = useState([]);
   useEffect(() => {
     fetch("jobs.json")
       .then((res) => res.json())
-      .then((data) => setJobs(data));
+      .then((data) => {
+        setJobs(data);
+        setPartialJobs(data.slice(0, 4));
+      });
   }, []);
+
+  const handleSeeAllButton = () => {
+    setPartialJobs(jobs);
+  };
   return (
     <div>
       <div
@@ -51,7 +59,7 @@ const Home = () => {
           <CatagoryList catagory={catagory} key={index}></CatagoryList>
         ))}
       </div>
-      <div className="text-center mt-24">
+      <div className="text-center mt-20">
         <h1 className="text-3xl font-bold mb-5 leading-relaxed">
           Featured Jobs
         </h1>
@@ -61,12 +69,14 @@ const Home = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-20 container mx-auto">
-        {jobs.slice(0, 4).map((job) => (
+        {partialJobs.map((job) => (
           <AllJobs job={job} key={job.id}></AllJobs>
         ))}
       </div>
       <div className="flex justify-center items-center my-10">
-        <button className="btn btn-primary">See All Jobs</button>
+        <button onClick={handleSeeAllButton} className="btn btn-primary">
+          See All Jobs
+        </button>
       </div>
     </div>
   );

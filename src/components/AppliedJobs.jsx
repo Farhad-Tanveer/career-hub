@@ -24,10 +24,39 @@ const AppliedJobs = () => {
     }
     setJob(savedJobs);
   }, [productData]);
+
+  // handle remote jobs
+  const handleRemoteJobs = (job) => {
+    const remoteJob = job.filter(
+      (remote) => remote.remoteOrOnsite === "Remote"
+    );
+    setJob(remoteJob);
+  };
+  const handleOnsiteJobs = (job) => {
+    const onsiteJob = job.filter(
+      (onsite) => onsite.remoteOrOnsite === "Onsite"
+    );
+    setJob(onsiteJob);
+  };
+
   return (
     <div className="flex min-h-screen items-start justify-center bg-gray-100 text-gray-900">
       <div className="flex flex-col p-6 space-y-4 sm:p-10 ">
         <ul className="flex flex-col gap-3">
+          <div className="flex justify-center gap-2 text-white">
+            <button
+              onClick={() => handleRemoteJobs(job)}
+              className="btn btn-info text-white"
+            >
+              Show Remote Jobs
+            </button>
+            <button
+              onClick={() => handleOnsiteJobs(job)}
+              className="btn btn-success text-white"
+            >
+              Show Onsite Jobs
+            </button>
+          </div>
           {job.map((singleJob) => (
             <AppliedJobsDetails
               singleJob={singleJob}
