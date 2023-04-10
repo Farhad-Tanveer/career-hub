@@ -8,7 +8,7 @@ const CatagoryList = ({ catagory }) => {
         <img className="object-cover w-20 mt-auto" src={img} alt="" />
         <div className="mt-auto">
           <h2 className=" text-md font-bold">{name}</h2>
-          <p className="text-sm text-gray-700">{jobAvailable}</p>
+          <p className="text-sm text-gray-700 ">{jobAvailable}</p>
         </div>
       </div>
     </>
