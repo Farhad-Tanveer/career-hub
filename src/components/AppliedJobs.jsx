@@ -27,7 +27,6 @@ const AppliedJobs = () => {
   return (
     <div className="flex min-h-screen items-start justify-center bg-gray-100 text-gray-900">
       <div className="flex flex-col p-6 space-y-4 sm:p-10 ">
-        <h2 className="text-xl font-semibold"></h2>
         <ul className="flex flex-col gap-3">
           {job.map((singleJob) => (
             <AppliedJobsDetails
