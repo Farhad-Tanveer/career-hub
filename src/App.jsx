@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./components/Header";
 import { Outlet } from "react-router-dom";
 import Footer from "./components/Footer";
+import AppliedJobs from "./components/AppliedJobs";
 
 function App() {
   return (

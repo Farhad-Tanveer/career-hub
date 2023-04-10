@@ -1,21 +1,21 @@
 [
   {
-    "icon": "faFile",
+    "img": "https://logowik.com/content/uploads/images/pen-on-board898.logowik.com.webp",
     "name": "Account & Finance",
     "jobAvailable": "100+ Jobs Available"
   },
   {
-    "icon": "faHighlighter",
+    "img": "https://logowik.com/content/uploads/images/brain8638.logowik.com.webp",
     "name": "Creative Design",
     "jobAvailable": "300 Jobs Available"
   },
   {
-    "icon": "faHighlighter",
+    "img": "https://logowik.com/content/uploads/images/pay-money6341.jpg",
     "name": "Marketing & Sales",
     "jobAvailable": "150 Jobs Available"
   },
   {
-    "icon": "faHighlighter",
+    "img": "https://logowik.com/content/uploads/images/server8019.jpg",
     "name": "Engineering Job",
     "jobAvailable": "224 Jobs Available"
   }

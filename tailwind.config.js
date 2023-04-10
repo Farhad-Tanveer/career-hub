@@ -5,23 +5,23 @@ export default {
     themes: [
       {
         mytheme: {
-          primary: "#27db99",
+          primary: "#ef6407",
 
-          secondary: "#f9bbe1",
+          secondary: "#e2618e",
 
-          accent: "#f29b10",
+          accent: "#7eff28",
 
-          neutral: "#181E25",
+          neutral: "#161C23",
 
-          "base-100": "#EAEAEB",
+          "base-100": "#ECEAF5",
 
-          info: "#3095F3",
+          info: "#4B94DD",
 
-          success: "#63EEB2",
+          success: "#21AB5A",
 
-          warning: "#B49913",
+          warning: "#F0C966",
 
-          error: "#ED457D",
+          error: "#FA3D4A",
         },
       },
     ],
