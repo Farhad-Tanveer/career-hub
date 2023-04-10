@@ -1,10 +1,12 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faDollar } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const AppliedJobsDetails = ({ singleJob }) => {
   console.log(singleJob);
   const {
+    id,
     companyLogo,
     companyName,
     jobTitle,
@@ -42,7 +44,9 @@ const AppliedJobsDetails = ({ singleJob }) => {
             </div>
           </div>
           <div className="card-actions justify-start items-center mr-5">
-            <button className="btn btn-primary">View Details</button>
+            <Link to={`/job/${id}`}>
+              <button className="btn btn-primary">View Details</button>
+            </Link>
           </div>
         </div>
       </div>
