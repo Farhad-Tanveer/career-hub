@@ -8,6 +8,7 @@ import {
   faBook,
 } from "@fortawesome/free-solid-svg-icons";
 import { useLoaderData, useParams } from "react-router-dom";
+import { addToDb } from "../../utilities/fakedb";
 
 const JobDetails = () => {
   const jobs = useLoaderData();
@@ -17,10 +18,13 @@ const JobDetails = () => {
   useEffect(() => {
     const matchJob = jobs.find((job) => job.id === parseInt(id));
     if (matchJob) {
-      console.log(matchJob);
       setJob(matchJob);
     }
   }, []);
+
+  const handleAddToCart = (id) => {
+    addToDb(id);
+  };
   const {
     jobTitle,
     salary,
@@ -85,13 +89,21 @@ const JobDetails = () => {
             </p>
           </div>
           <div className="flex gap-2 justify-start">
-            <FontAwesomeIcon className=" text-purple-400" icon={faDollar} />
+            <FontAwesomeIcon
+              className=" text-purple-400"
+              icon={faLocationDot}
+            />
             <p className="text-sm ">
               <span className=" font-medium text-sm">Location</span>: {location}
             </p>
           </div>
         </div>
-        <button className="btn btn-primary w-80 mt-1">Apply Now</button>
+        <button
+          onClick={() => handleAddToCart(id)}
+          className="btn btn-primary w-80 mt-1"
+        >
+          Apply Now
+        </button>
       </div>
     </div>
   );

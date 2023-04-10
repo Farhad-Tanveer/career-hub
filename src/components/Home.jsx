@@ -21,8 +21,8 @@ const Home = () => {
       >
         <div className="hero-overlay bg-opacity-60"></div>
         <div className=" text-start text-neutral-content">
-          <div className="max-w-md absolute bottom-1/4 left-20 right-0">
-            <h1 className="mb-5 text-5xl font-bold text-white">
+          <div className="max-w-md absolute bottom-1/4 left-20 right-0 text-white">
+            <h1 className="mb-5 text-5xl font-bold">
               One Step Closer To Your{" "}
               <span className="bg-gradient-to-r from-purple-200 via-purple-400 to-purple-500 inline-block text-transparent bg-clip-text">
                 Dream Job
