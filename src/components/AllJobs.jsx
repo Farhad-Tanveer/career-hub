@@ -24,8 +24,8 @@ const AllJobs = ({ job }) => {
           <h2 className="card-title">{jobTitle}</h2>
           <p>{companyName}</p>
           <div className="flex gap-3 my-3">
-            <a className="btn btn-outline">{remoteOrOnsite}</a>
-            <a className="btn btn-outline">{fulltimeOrParttime}</a>
+            <a className="btn btn-outline btn-info">{remoteOrOnsite}</a>
+            <a className="btn btn-outline btn-info">{fulltimeOrParttime}</a>
           </div>
           <div className="flex gap-4 my-3">
             <div className="flex gap-2  items-center">

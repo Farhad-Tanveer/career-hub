@@ -5,6 +5,7 @@ import AppliedJobsDetails from "./AppliedJobsDetails";
 
 const AppliedJobs = () => {
   const [job, setJob] = useState([]);
+
   // load data from json file
   const productData = useLoaderData();
   // console.log(productData);
@@ -22,7 +23,7 @@ const AppliedJobs = () => {
       }
     }
     setJob(savedJobs);
-  }, []);
+  }, [productData]);
   return (
     <div className="flex min-h-screen items-start justify-center bg-gray-100 text-gray-900">
       <div className="flex flex-col p-6 space-y-4 sm:p-10 ">
