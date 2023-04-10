@@ -5,11 +5,11 @@ import CatagoryList from "./CatagoryList";
 
 const Home = () => {
   const catagories = useLoaderData();
-  const [jobs, setjobs] = useState([]);
+  const [jobs, setJobs] = useState([]);
   useEffect(() => {
     fetch("jobs.json")
       .then((res) => res.json())
-      .then((data) => setjobs(data));
+      .then((data) => setJobs(data));
   }, []);
   return (
     <div>

@@ -1,9 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocation, faDollar } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot, faDollar } from "@fortawesome/free-solid-svg-icons";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 
 const AllJobs = ({ job }) => {
   const {
+    id,
     companyLogo,
     jobTitle,
     companyName,
@@ -21,13 +23,13 @@ const AllJobs = ({ job }) => {
         <div className="card-body">
           <h2 className="card-title">{jobTitle}</h2>
           <p>{companyName}</p>
-          <div className="flex gap-3">
+          <div className="flex gap-3 my-3">
             <a className="btn btn-outline">{remoteOrOnsite}</a>
             <a className="btn btn-outline">{fulltimeOrParttime}</a>
           </div>
-          <div className="flex gap-4">
-            <div className="flex gap-2 items-center">
-              <FontAwesomeIcon icon={faLocation} />
+          <div className="flex gap-4 my-3">
+            <div className="flex gap-2  items-center">
+              <FontAwesomeIcon icon={faLocationDot} />
               <p>{location}</p>
             </div>
             <div className="flex gap-2 items-center">
@@ -36,7 +38,9 @@ const AllJobs = ({ job }) => {
             </div>
           </div>
           <div className="card-actions justify-start">
-            <button className="btn btn-primary">View Details</button>
+            <Link to={`/job/${id}`}>
+              <button className="btn btn-primary">View Details</button>
+            </Link>
           </div>
         </div>
       </div>

@@ -60,7 +60,7 @@
     "companyName": "Netflix",
     "remoteOrOnsite": "Onsite",
     "location": "San Francisco, CA",
-    "fulltimeOrPartTime": "Full-time",
+    "fulltimeOrParttime": "Full-time",
     "salary": "$60,000 - $80,000 per year",
     "jobDescription": "We are seeking a talented graphic designer to join our team and create beautiful designs for a variety of clients. In this role, you will work closely with our creative director and project managers to bring our clients’ visions to life.",
     "jobResponsibility": "Create designs for a variety of mediums, including print, web, and social media. Work collaboratively with our team to develop concepts and present them to clients. Manage multiple projects and deadlines simultaneously.",
@@ -90,7 +90,7 @@
     }
   },
   {
-    "id": 98765,
+    "id": 6,
     "companyLogo": "https://logowik.com/content/uploads/images/facebook-reversed2372.logowik.com.webp",
     "jobTitle": "Marketing Manager",
     "companyName": "Facebook",

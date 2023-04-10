@@ -59,7 +59,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end invisible lg:visible">
           <a className="btn border-none text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-800">
             Start Applying
           </a>
