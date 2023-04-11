@@ -8,7 +8,7 @@ const Home = () => {
   const [jobs, setJobs] = useState([]);
   const [partialJobs, setPartialJobs] = useState([]);
   useEffect(() => {
-    fetch("jobs.json")
+    fetch("/jobs.json")
       .then((res) => res.json())
       .then((data) => {
         setJobs(data);

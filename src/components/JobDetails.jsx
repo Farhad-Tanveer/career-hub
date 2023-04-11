@@ -39,7 +39,7 @@ const JobDetails = () => {
 
   return (
     <div>
-      <h1 className="text-3xl text-center my-10">Job Details</h1>
+      <h1 className="text-3xl text-center my-10">Specifics of the Position</h1>
       <div className="grid lg:grid-cols-3 container mx-auto space-x-10 mt-16 text-sm leading-loose">
         <div className="col-span-2 space-y-5">
           <h1>

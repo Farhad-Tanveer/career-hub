@@ -32,6 +32,8 @@ const AppliedJobs = () => {
     );
     setJob(remoteJob);
   };
+
+  // handle onsite jobs
   const handleOnsiteJobs = (job) => {
     const onsiteJob = job.filter(
       (onsite) => onsite.remoteOrOnsite === "Onsite"
@@ -42,7 +44,7 @@ const AppliedJobs = () => {
   return (
     <>
       <div className=" w-full pt-10 pb-6">
-        <h1 className="text-3xl text-center bg-base-100">Applied Jobs</h1>
+        <h1 className="text-3xl text-center bg-base-100">Job Applications</h1>
       </div>
       <div className="flex min-h-screen items-start justify-center bg-gray-100 text-gray-900">
         <div className="flex flex-col p-6 space-y-4 sm:p-10 ">
