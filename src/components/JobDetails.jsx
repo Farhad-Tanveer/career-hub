@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from "react";
+import swal from "sweetalert";
+import { useLoaderData, useParams } from "react-router-dom";
+import { addToDb } from "../../utilities/fakedb";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLocationDot,
@@ -7,8 +10,6 @@ import {
   faMailBulk,
   faBook,
 } from "@fortawesome/free-solid-svg-icons";
-import { useLoaderData, useParams } from "react-router-dom";
-import { addToDb } from "../../utilities/fakedb";
 
 const JobDetails = () => {
   const jobs = useLoaderData();
@@ -25,6 +26,7 @@ const JobDetails = () => {
   const handleAddToCart = (id) => {
     addToDb(id);
   };
+
   const {
     jobTitle,
     salary,
