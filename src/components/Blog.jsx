@@ -2,7 +2,10 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div className="flex flex-col gap-6 mt-20 mb-20">
+    <div className="flex flex-col gap-6 mt-6 mb-20">
+      <div className=" w-full pt-10 pb-6">
+        <h1 className="text-3xl text-center bg-base-100">Our Blogs</h1>
+      </div>
       <div className=" w-70 container mx-auto bg-base-100 shadow-xl">
         <div className="card-body">
           <h2 className="card-title">When should you use context API?</h2>

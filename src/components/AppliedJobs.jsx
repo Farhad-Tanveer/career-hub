@@ -40,32 +40,37 @@ const AppliedJobs = () => {
   };
 
   return (
-    <div className="flex min-h-screen items-start justify-center bg-gray-100 text-gray-900">
-      <div className="flex flex-col p-6 space-y-4 sm:p-10 ">
-        <ul className="flex flex-col gap-3">
-          <div className="flex justify-center gap-2 text-white">
-            <button
-              onClick={() => handleRemoteJobs(job)}
-              className="btn btn-info text-white"
-            >
-              Show Remote Jobs
-            </button>
-            <button
-              onClick={() => handleOnsiteJobs(job)}
-              className="btn btn-success text-white"
-            >
-              Show Onsite Jobs
-            </button>
-          </div>
-          {job.map((singleJob) => (
-            <AppliedJobsDetails
-              singleJob={singleJob}
-              key={singleJob.id}
-            ></AppliedJobsDetails>
-          ))}
-        </ul>
+    <>
+      <div className=" w-full pt-10 pb-6">
+        <h1 className="text-3xl text-center bg-base-100">Applied Jobs</h1>
       </div>
-    </div>
+      <div className="flex min-h-screen items-start justify-center bg-gray-100 text-gray-900">
+        <div className="flex flex-col p-6 space-y-4 sm:p-10 ">
+          <ul className="flex flex-col gap-3">
+            <div className="flex justify-center gap-2 text-white ">
+              <button
+                onClick={() => handleRemoteJobs(job)}
+                className="btn btn-info text-white"
+              >
+                Show Remote Jobs
+              </button>
+              <button
+                onClick={() => handleOnsiteJobs(job)}
+                className="btn btn-success text-white"
+              >
+                Show Onsite Jobs
+              </button>
+            </div>
+            {job.map((singleJob) => (
+              <AppliedJobsDetails
+                singleJob={singleJob}
+                key={singleJob.id}
+              ></AppliedJobsDetails>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </>
   );
 };
 

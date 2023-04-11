@@ -70,7 +70,9 @@ const Home = () => {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-20 container mx-auto">
         {partialJobs.map((job) => (
-          <AllJobs job={job} key={job.id}></AllJobs>
+          <AllJobs job={job} key={job.id}>
+            Job Details
+          </AllJobs>
         ))}
       </div>
       <div className="flex justify-center items-center my-10">
